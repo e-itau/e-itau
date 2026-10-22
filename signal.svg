@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="88" viewBox="0 0 1200 88" role="img" aria-labelledby="title">
+  <title id="title">Stay curious. Keep orbiting.</title>
+  <rect width="1200" height="88" rx="12" fill="#080f17"/>
+  <path d="M30 44H294M908 44H1170" stroke="#243940"/>
+  <path d="M30 44H90L100 32 112 56 124 44H186" fill="none" stroke="#66f4d4" stroke-width="1.4"/>
+  <text x="600" y="49" text-anchor="middle" fill="#8ba7aa" font-family="Consolas,'Liberation Mono',monospace" font-size="13" letter-spacing="2.3">STAY CURIOUS. KEEP ORBITING.</text>
+  <circle cx="1170" cy="44" r="3" fill="#66f4d4"/>
+</svg>
