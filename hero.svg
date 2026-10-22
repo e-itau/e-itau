@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">e-itau — in the complex plane</title>
+  <desc id="desc">A mint unit circle with curious eyes on real and imaginary coordinate axes, beside the name e-itau.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#24323b" stroke-width=".65"/></pattern>
+    <radialGradient id="field"><stop stop-color="#153b3b" stop-opacity=".6"/><stop offset="1" stop-color="#080f17" stop-opacity="0"/></radialGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b2ffe5"/><stop offset=".6" stop-color="#66f4d4"/><stop offset="1" stop-color="#8f8bff"/></linearGradient>
+    <linearGradient id="fade"><stop stop-color="#080f17"/><stop offset=".65" stop-color="#080f17" stop-opacity=".95"/><stop offset="1" stop-color="#080f17" stop-opacity="0"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="bounds"><rect width="1200" height="440" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="440" fill="#080f17"/>
+    <rect x="620" width="580" height="440" fill="url(#grid)" opacity=".8"/>
+    <circle cx="914" cy="215" r="290" fill="url(#field)"/>
+    <rect width="780" height="440" fill="url(#fade)"/>
+    <path d="M40 32H1160M40 408H1160" stroke="#26343d" stroke-width="1"/>
+    <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
+      <rect x="52" y="62" width="7" height="7" fill="#66f4d4"/>
+      <text x="73" y="70" fill="#8da6ad" font-size="12" letter-spacing="2.4">IN THE COMPLEX PLANE</text>
+      <text x="48" y="193" fill="#eff5ec" font-family="'Arial',sans-serif" font-size="96" font-weight="700" letter-spacing="-6">e-itau<tspan fill="#66f4d4">.</tspan></text>
+      <text x="53" y="242" fill="#b5c6c8" font-size="21">Code. Curiosity. A full turn.</text>
+      <path d="M54 274H118" stroke="#66f4d4" stroke-width="2"/>
+      <text x="53" y="324" fill="#e5ede7" font-size="23">e<tspan baseline-shift="super" font-size="14">iτ</tspan><tspan fill="#768f9b"> = </tspan>1<tspan fill="#768f9b" font-size="13">  // a full turn, a fresh start</tspan></text>
+      <text x="53" y="382" fill="#617d89" font-size="11" letter-spacing="1.5">RE / IM</text>
+      <text x="145" y="382" fill="#91aaa9" font-size="11" letter-spacing="1.5">AN OPEN-ENDED EXPERIMENT</text>
+    </g>
+    <g transform="translate(916 220)">
+      <g fill="none" stroke="#34515b" stroke-width="1">
+        <path d="M-215 0H217M0 175V-177"/>
+        <path d="M211-4L218 0 211 4M-4-171L0-178 4-171"/>
+        <circle r="171" stroke-dasharray="2 10" opacity=".7"/>
+        <path d="M-134-5V5M134-5V5M-5-134H5M-5 134H5" stroke="#6b8b94"/>
+      </g>
+      <g fill="#78949f" font-family="Consolas,monospace" font-size="12">
+        <text x="197" y="22">Re</text><text x="12" y="-166">Im</text>
+        <text x="136" y="21">1</text><text x="-151" y="21">−1</text>
+        <text x="10" y="-139">i</text><text x="10" y="151">−i</text>
+      </g>
+      <circle r="134" fill="none" stroke="#66f4d4" stroke-width="5" opacity=".25" filter="url(#glow)"/>
+      <circle r="134" fill="#0b1921" fill-opacity=".9" stroke="url(#edge)" stroke-width="3"/>
+      <path d="M-108-70A129 129 0 0 1-46-120" fill="none" stroke="#c2ffe9" stroke-width="2" opacity=".6" stroke-linecap="round"/>
+      <path d="M0 0L95-95" stroke="#3c6c70" stroke-dasharray="3 7" opacity=".55"/>
+      <circle r="3" fill="#64a39f"/>
+      <g transform="translate(0 -10)">
+        <rect x="-66" y="-37" width="39" height="65" rx="19.5" fill="#eef6df"/>
+        <rect x="14" y="-37" width="39" height="65" rx="19.5" fill="#eef6df"/>
+        <rect x="-46" y="-20" width="14" height="32" rx="7" fill="#10232a"/>
+        <rect x="34" y="-20" width="14" height="32" rx="7" fill="#10232a"/>
+        <path d="M-13 50Q0 59 13 50" fill="none" stroke="#8cefd0" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <g>
+        <circle cx="134" r="7" fill="#a4ffe1"/><circle cx="134" r="15" fill="#66f4d4" opacity=".09"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="28s" repeatCount="indefinite"/>
+      </g>
+      <circle cx="-121" cy="-121" r="3" fill="#9f8cff"/>
+    </g>
+    <g fill="#617d89" font-family="Consolas,monospace" font-size="10" letter-spacing="1.5"><text x="1054" y="382">|z| = 1</text></g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="439" rx="20" fill="none" stroke="#26343d"/>
+</svg>
